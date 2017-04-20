@@ -2,11 +2,11 @@
   "name": "web-page",
   "version": "1.0.0",
   "description": "web-page",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "David Martinez Gilo",
+  "author": "David Martinez Gilo <davidmgilo@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.7",

@@ -1,0 +1,61 @@
+@media (min-width: 1200px){
+    .carousel-inner > .item > #primera-imatge {
+        /* background: url("/assets/img/leujene_editora_8_19_1_resized.jpg"); */
+        content: url("http://lorempixel.com/1200/500/cats");
+    }
+}
+
+.panel-body {
+    background-color: white;
+}
+
+#objectius {
+    margin-top: 100px;
+    /*box-shadow: 0 0 1em 1em #ccc;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 56px;
+    line-height: 80px;
+}
+
+p, div {
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+body {
+    background: url(/assets/img/nice_snow.png) repeat 0 0;
+}
+
+.list-group-item:before {
+    content: "•"; /* Insert content that looks like bullets */
+    size: 299995px;
+    padding-right: 8px;
+    color: black; /* Or a color you prefer */
+}
+
+.navbar-inverse {
+    background-color: lavender;
+}
+
+.navbar-inverse .navbar-nav > li > a , .navbar-inverse .navbar-header > a{
+    color: black;
+    font-family: 'Molengo', Georgia, Times, serif;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:black;
+    background-color:white;
+}
+
+.navbar-inverse .navbar-header > a:hover {
+    color: grey;
+}
+
+.list-group > li {
+    border: 0 none;
+}
