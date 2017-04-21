@@ -81,3 +81,19 @@ body {
 a {
     color: black;
 }
+
+.cat > li > #home span {
+    display: none;
+}
+
+.cat > li > #home:after {
+    content: 'Principal';
+}
+
+.cat > li > #group span {
+    display: none;
+}
+
+.cat > li > #group:after {
+    content: 'Grup';
+}

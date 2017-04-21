@@ -14,13 +14,13 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" id="Nav">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/assets/views/about.html">Sobre el grup</a></li>
-                        <li><a href="/assets/views/projects.html">Projectes</a></li>
-                        <li><a href="/assets/views/publish.html">Publicacions</a></li>
-                        <li><a href="/assets/views/contact.html">Contact</a></li>
+                        <li><a href="/" id="home"><span>Home</span></a></li>
+                        <li><a href="/assets/views/about.html" id="group"><span>Group</span></a></li>
+                        <li><a href="/assets/views/projects.html" id="projects">Projects</a></li>
+                        <li><a href="/assets/views/publish.html" id="publications">Publications</a></li>
+                        <li><a href="/assets/views/contact.html" id="contacts">Contact</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Languages <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="languages">Languages <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#" role="button" onclick="changeLan('English')">English</a></li>
                                 <li><a href="#" role="button" onclick="changeLan('Catala')">Català</a></li>
@@ -35,3 +35,4 @@
     </div>
 </div>
 <script src="/assets/js/languages.js"></script>
+<script src="/assets/js/carregar.js"></script>
