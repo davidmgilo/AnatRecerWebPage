@@ -9,7 +9,7 @@
     background-color: white;
 }
 
-#objectius {
+#primer {
     margin-top: 100px;
     /*box-shadow: 0 0 1em 1em #ccc;*/
 }
@@ -33,7 +33,6 @@ body {
 
 .list-group-item:before {
     content: "•"; /* Insert content that looks like bullets */
-    size: 299995px;
     padding-right: 8px;
     color: black; /* Or a color you prefer */
 }
@@ -58,4 +57,27 @@ body {
 
 .list-group > li {
     border: 0 none;
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+}
+
+.projecte {
+    font-size: 20px;
+    line-height: normal;
+}
+
+.publicacio:before {
+    content: "";
+    padding-right: 0;
+}
+
+.publicacio > .fort {
+    font-weight: bold;
+}
+
+.publicacio > .cursiva {
+    font-style: italic;
+}
+
+a {
+    color: black;
 }
