@@ -9,6 +9,6 @@ function changeLan(lan){
         nav.classList.add('cat');
         nav.classList.remove('en');
         nav.classList.remove('es');
-        location.href='http://localhost:8080/assets/views/cat/principal.html'
+        location.href='http://localhost:8080/assets/views/cat/principal.html' //TODO ref to server side
     }
 }

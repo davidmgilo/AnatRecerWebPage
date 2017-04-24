@@ -1,7 +1,14 @@
 @media (min-width: 1200px){
     .carousel-inner > .item > #primera-imatge {
         /* background: url("/assets/img/leujene_editora_8_19_1_resized.jpg"); */
-        content: url("http://lorempixel.com/1200/500/cats");
+        content: url("/assets/img/foto03_1200x500.JPG");
+    }
+}
+
+@media (min-width: 1400px){
+    .carousel-inner > .item > #primera-imatge {
+        /* background: url("/assets/img/leujene_editora_8_19_1_resized.jpg"); */
+        content: url("/assets/img/foto03_1400.JPG");
     }
 }
 
@@ -38,7 +45,7 @@ body {
 }
 
 .navbar-inverse {
-    background-color: lavender;
+    background-color: #C7D7ED;
 }
 
 .navbar-inverse .navbar-nav > li > a , .navbar-inverse .navbar-header > a{
