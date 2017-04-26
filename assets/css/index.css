@@ -104,3 +104,45 @@ a {
 .cat > li > #group:after {
     content: 'Grup';
 }
+
+.cat > li > #projects span {
+    display: none;
+}
+
+.cat > li > #projects:after {
+    content: 'Projectes';
+}
+
+.cat > li > #publications span {
+    display: none;
+}
+
+.cat > li > #publications:after {
+    content: 'Publicacions';
+}
+
+.cat > li > #contacts span {
+    display: none;
+}
+
+.cat > li > #contacts:after {
+    content: 'Contacte';
+}
+
+.cat > li > #languages #landspan {
+    display: none;
+}
+
+.cat > li > #languages:before {
+    content: 'Idiomes';
+}
+
+#informacio {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-heading{
+    font-size: 32px;
+    line-height: 50px;
+}

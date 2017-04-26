@@ -8,4 +8,7 @@ $(document).ready(function(){
     $.get("/assets/views/partials/footer.html", function(data) {
         $("#includeFooter").html(data);
     });
+    $.get("/assets/views/partials/publications.html", function(data) {
+        $("#includePublications").html(data);
+    });
 });
