@@ -35,7 +35,7 @@ p, div {
 }
 
 body {
-    background: url(/assets/img/nice_snow.png) repeat 0 0;
+    background: url(/assets/img/crossword.png) repeat 0 0;
 }
 
 .list-group-item:before {
@@ -145,4 +145,18 @@ a {
 .about-heading{
     font-size: 32px;
     line-height: 50px;
+}
+
+h5 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.media-video {
+    text-align: center;
+}
+
+iframe {
+    margin: 0 auto;
 }
