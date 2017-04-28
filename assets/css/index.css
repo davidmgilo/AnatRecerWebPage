@@ -160,3 +160,51 @@ h5 {
 iframe {
     margin: 0 auto;
 }
+
+.es > li > #home span {
+    display: none;
+}
+
+.es > li > #home:after {
+    content: 'Principal';
+}
+
+.es > li > #group span {
+    display: none;
+}
+
+.es > li > #group:after {
+    content: 'Grupo';
+}
+
+.es > li > #projects span {
+    display: none;
+}
+
+.es > li > #projects:after {
+    content: 'Proyectos';
+}
+
+.es > li > #publications span {
+    display: none;
+}
+
+.es > li > #publications:after {
+    content: 'Publicaciones';
+}
+
+.es > li > #contacts span {
+    display: none;
+}
+
+.es > li > #contacts:after {
+    content: 'Contactos';
+}
+
+.es > li > #languages #landspan {
+    display: none;
+}
+
+.es > li > #languages:before {
+    content: 'Idiomas';
+}
