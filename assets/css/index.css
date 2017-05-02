@@ -125,12 +125,28 @@ a {
     content: 'Projectes';
 }
 
-.cat > li > #publications span {
+.cat > li > ul > li > #publications span {
     display: none;
 }
 
-.cat > li > #publications:after {
+.cat > li > ul > li > #publications:after {
     content: 'Publicacions';
+}
+
+.cat > li > ul > li > #conferences span {
+    display: none;
+}
+
+.cat > li > ul > li > #conferences:after {
+    content: 'Conferències';
+}
+
+.cat > li > #pub-research #pubres {
+    display: none;
+}
+
+.cat > li > #pub-research:before {
+    content: 'Recerca';
 }
 
 .cat > li > #contacts span {
@@ -197,12 +213,28 @@ iframe {
     content: 'Proyectos';
 }
 
-.es > li > #publications span {
+.es > li > ul > li > #publications span {
     display: none;
 }
 
-.es > li > #publications:after {
+.es > li > ul > li > #publications:after {
     content: 'Publicaciones';
+}
+
+.es > li > ul > li > #conferences span {
+    display: none;
+}
+
+.es > li > ul > li > #conferences:after {
+    content: 'Conferencias';
+}
+
+.es > li > #pub-research #pubres {
+    display: none;
+}
+
+.es > li > #pub-research:before {
+    content: 'Investigación';
 }
 
 .es > li > #contacts span {
@@ -223,4 +255,19 @@ iframe {
 
 .panel-heading{
     margin:0;
+}
+
+.about-name {
+    font-size: 30px;
+}
+
+.top-buffer {
+    margin-top:50px;
+}
+
+.btn, .btn:hover {
+    background-color: darkslategrey;
+}
+.carousel-caption p {
+    text-align: center;
 }

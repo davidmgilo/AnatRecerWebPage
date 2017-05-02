@@ -8,6 +8,7 @@ $(function(){
         $('#group').attr('href','/assets/views/cat/about.html')
         $('#projects').attr('href','/assets/views/cat/projects.html')
         $('#publications').attr('href','/assets/views/cat/publish.html')
+        $('#conferences').attr('href','/assets/views/cat/conference.html')
         $('#contacts').attr('href','/assets/views/cat/contact.html')
         $('#media').attr('href','/assets/views/cat/media.html')
     }else if (/es/.test(loc)){
@@ -17,6 +18,7 @@ $(function(){
         $('#group').attr('href','/assets/views/es/about.html')
         $('#projects').attr('href','/assets/views/es/projects.html')
         $('#publications').attr('href','/assets/views/es/publish.html')
+        $('#conferences').attr('href','/assets/views/es/conference.html')
         $('#contacts').attr('href','/assets/views/es/contact.html')
         $('#media').attr('href','/assets/views/es/media.html')
     }else {

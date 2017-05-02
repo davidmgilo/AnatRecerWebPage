@@ -11,4 +11,7 @@ $(document).ready(function(){
     $.get("/assets/views/partials/publications.html", function(data) {
         $("#includePublications").html(data);
     });
+    $.get("/assets/views/partials/conferences.html", function(data) {
+        $("#includeConferences").html(data);
+    });
 });
