@@ -3,6 +3,46 @@
     content: url("/assets/img/foto03_750.JPG");
 }
 
+.carousel-inner > .item > #segona-imatge {
+    /* background: url("/assets/img/leujene_editora_8_19_1_resized.jpg"); */
+    content: url("/assets/img/foto07_IHQ.jpg");
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.carousel-inner > .item > #tercera-imatge {
+    /* background: url("/assets/img/leujene_editora_8_19_1_resized.jpg"); */
+    content: url("/assets/img/foto11_bloques TMAbis.jpg");
+    max-width: none;
+    min-width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.item{
+    position: relative;
+}
+
+.carousel .item {
+    background-color: white;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
 @media (min-width: 1000px){
     .carousel-inner > .item > #primera-imatge {
         /* background: url("/assets/img/leujene_editora_8_19_1_resized.jpg"); */
@@ -242,7 +282,7 @@ iframe {
 }
 
 .es > li > #contacts:after {
-    content: 'Contactos';
+    content: 'Contacto';
 }
 
 .es > li > #languages #landspan {
