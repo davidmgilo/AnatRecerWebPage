@@ -197,6 +197,14 @@ a {
     content: 'Contacte';
 }
 
+.cat > li > #jobs span {
+    display: none;
+}
+
+.cat > li > #jobs:after {
+    content: 'Treball';
+}
+
 .cat > li > #languages #landspan {
     display: none;
 }
@@ -293,6 +301,14 @@ iframe {
     content: 'Idiomas';
 }
 
+.es > li > #jobs span {
+    display: none;
+}
+
+.es > li > #jobs:after {
+    content: 'Trabajo';
+}
+
 .panel-heading{
     margin:0;
 }
@@ -310,4 +326,8 @@ iframe {
 }
 .carousel-caption p {
     text-align: center;
+}
+
+.job-title{
+    font-size: 30px;
 }

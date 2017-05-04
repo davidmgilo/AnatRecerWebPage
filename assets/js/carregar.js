@@ -11,6 +11,7 @@ $(function(){
         $('#conferences').attr('href','/assets/views/cat/conference.html')
         $('#contacts').attr('href','/assets/views/cat/contact.html')
         $('#media').attr('href','/assets/views/cat/media.html')
+        $('#jobs').attr('href','/assets/views/cat/requirements.html')
     }else if (/es/.test(loc)){
         $('#Nav').addClass('es')
         $('#RNav').addClass('es')
@@ -21,8 +22,11 @@ $(function(){
         $('#conferences').attr('href','/assets/views/es/conference.html')
         $('#contacts').attr('href','/assets/views/es/contact.html')
         $('#media').attr('href','/assets/views/es/media.html')
+        $('#jobs').attr('href','/assets/views/es/requirements.html')
     }else {
         $('#Nav').removeClass('cat')
         $('#RNav').removeClass('cat')
+        $('#Nav').removeClass('es')
+        $('#RNav').removeClass('es')
     }
 })
